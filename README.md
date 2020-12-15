@@ -8,8 +8,11 @@
    - 사용한 산타 모자 출처 : pixabay 사이트
   
 ## 바코드/QR코드 인식기 만들기
-   - 바코드/QR코드 정보 추출하기 !
+   - 바코드/QR코드 인식 & 정보 추출하기 !
+      - EAN-8 바코드 타입이면 어느 나라 상품인가? (info.txt)
+      - 이미지의 바코드 부분을 표시한 후 저장 (save/img...)
+   - 많은 지식을 얻은 곳 : [빵형의 개발도상국님의 유튜브](https://www.youtube.com/watch?v=tpWVyJqehG4&list=PL-xmlFOn6TUKlxlh3PIuAzHkJakFlcDvY&index=15)
    - QR코드 생성해주는 사이트
       - [네이버 QR 코드](https://qr.naver.com/)
       - [QR 코드 생성기](https://ko.qr-code-generator.com/)
-   - ing ...
+   - 사용한 바코드 이미지 (10개) : 직접 찍은 사진
