@@ -7,7 +7,7 @@ code_country=['U.S and Canada', 'U.S and Canada', 'U.S and Canada', 'U.S and Can
 
 
 n=10
-f=open("inform.txt", "w")
+f=open("info.txt", "w")
 
 for i in range(1, n+1):
     qr_code_img=cv2.imread('./img/img{}.jpg'.format(i))
