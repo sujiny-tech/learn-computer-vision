@@ -26,7 +26,7 @@ for i in range(1, n+1):
     for d in decoded:
         
         if d.data.decode('utf-8').isdigit():
-            f.write(" type"+d.type+" : "+d.data.decode('utf-8')+"["+code_country[int(str(d.data.decode('utf-8'))[:3])]+"] \n") ##country code -> country detect
+            f.write(" type"+d.type+" : "+d.data.decode('utf-8')+"["+code_country[int(str(d.data.decode('utf-8'))[:3])]+"] \n")
 
         else:    
             f.write(" type"+d.type+" : "+d.data.decode('utf-8')+"\n")
